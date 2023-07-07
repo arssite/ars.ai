@@ -39,7 +39,7 @@ def rescue_princess(n, grid):
 n = int(input())
 grid = []
 
-#print(f"Enter the {n}x{n} grid:")
+print(f"Enter the {n}x{n} grid:")
 for _ in range(n):
     row = list(input())
     grid.append(row)
